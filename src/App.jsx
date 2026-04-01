@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
+console.log("API URL:", import.meta.env.VITE_API_URL);
+
 const BIRTHDAY_TEMPLATES = [
   { id: "t1", label: "Sunrise Spark", emoji: "🌅", accent: "#fb7185", title: "A Bright New Day" },
   { id: "t2", label: "Candy Bloom", emoji: "🌸", accent: "#f472b6", title: "Bloom With Joy" },
